@@ -1,0 +1,112 @@
+@media (max-width: 991px) {
+
+	/*=====================*/
+	/* AWARDS SECTION */
+	/*=====================*/
+	.awrds__slider__box {
+		min-height: 250px;
+	}
+
+	/*=====================*/
+	/* CLIENT SECTION */
+	/*=====================*/
+	.client__slider__text h3 a {
+		font-size: 20px;
+	}
+
+	.client__slider__text p {
+		font-size: 16px;
+	}
+
+	/*=====================*/
+	/* FOOTER SECTION */
+	/*=====================*/
+	.footer__link {
+		margin-top: 40px;
+	}
+
+}
+
+@media (max-width: 767px) {
+
+	/*=====================*/
+	/* AWARDS SECTION */
+	/*=====================*/
+	.awrds__slider__box {
+		min-height: 360px;
+	}
+
+	.swiper__btn {
+		display: none !important;
+	}
+
+	/*=====================*/
+	/* CLIENT SECTION */
+	/*=====================*/
+	.client__slider__text h3 a {
+		font-size: 22px;
+	}
+
+	.client__slider__text p {
+		font-size: 17px;
+	}
+
+}
+
+@media (max-width: 575px) {
+
+	/*=======================*/
+	/* REUSEBLE COMPONENTS */
+	/*=======================*/
+	.heading {
+		font-size: 40px;
+	}
+
+	.sub__heading {
+		font-size: 27px;
+	}
+
+	/*=====================*/
+	/* AWARDS SECTION */
+	/*=====================*/
+	.awrds__slider__box {
+		min-height: 0px;
+	}
+
+	.awrds__slider__text {
+		width: 100%;
+		position: static;
+		-webkit-transform: translateX(0%);
+		-ms-transform: translateX(0%);
+		transform: translateX(0%);
+	}
+
+	.awrds__slider__text p {
+		margin-top: 30px;
+	}
+
+	/*=====================*/
+	/* FOOTER SECTION */
+	/*=====================*/
+	.signup__form {
+		margin-bottom: 30px;
+	}
+
+	.signup__form .email {
+		margin-bottom: 20px;
+	}
+
+	.footer__social li {
+		display: inline-block;
+	}
+
+	.footer__social li:not(:last-child) {
+		margin-right: 15px;
+		margin-bottom: 0;
+	}
+
+	.accordion {
+		margin-top: 40px;
+	}
+
+}

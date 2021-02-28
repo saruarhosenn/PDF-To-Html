@@ -1,0 +1,177 @@
+.container {
+	width: 100%;
+	padding-right: var(--bs-gutter-x, 1rem);
+	padding-left: var(--bs-gutter-x, 1rem);
+	margin-right: auto;
+	margin-left: auto
+}
+
+@media (min-width:576px) {
+
+	.container {
+		max-width: 540px
+	}
+}
+
+@media (min-width:768px) {
+
+	.container {
+		max-width: 720px
+	}
+}
+
+@media (min-width:992px) {
+
+	.container {
+		max-width: 960px
+	}
+}
+
+@media (min-width:1200px) {
+
+	.container {
+		max-width: 1050px
+	}
+}
+
+.row {
+	--bs-gutter-x: 1.5rem;
+	--bs-gutter-y: 0;
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: calc(var(--bs-gutter-y) * -1);
+	margin-right: calc(var(--bs-gutter-x)/ -2);
+	margin-left: calc(var(--bs-gutter-x)/ -2)
+}
+
+.row > * {
+	box-sizing: border-box;
+	flex-shrink: 0;
+	width: 100%;
+	max-width: 100%;
+	padding-right: calc(var(--bs-gutter-x)/ 2);
+	padding-left: calc(var(--bs-gutter-x)/ 2);
+	margin-top: var(--bs-gutter-y)
+}
+
+.col-12 {
+	flex: 0 0 auto;
+	width: 100%
+}
+
+
+.g-4,
+.gx-4 {
+	--bs-gutter-x: 1.5rem
+}
+
+.g-4,
+.gy-4 {
+	--bs-gutter-y: 1.5rem
+}
+
+.g-5,
+.gx-5 {
+	--bs-gutter-x: 3rem
+}
+
+.g-5,
+.gy-5 {
+	--bs-gutter-y: 3rem
+}
+
+@media (min-width:576px) {
+
+	.col-sm-3 {
+		flex: 0 0 auto;
+		width: 25%
+	}
+
+	.col-sm-6 {
+		flex: 0 0 auto;
+		width: 50%
+	}
+
+	.col-sm-9 {
+		flex: 0 0 auto;
+		width: 75%
+	}
+
+}
+
+@media (min-width:768px) {
+
+	.col-md-4 {
+		flex: 0 0 auto;
+		width: 33.3333333333%
+	}
+
+	.col-md-6 {
+		flex: 0 0 auto;
+		width: 50%
+	}
+
+}
+
+@media (min-width:992px) {
+
+	.col-lg-2 {
+		flex: 0 0 auto;
+		width: 16.6666666667%
+	}
+
+	.col-lg-3 {
+		flex: 0 0 auto;
+		width: 25%
+	}
+
+	.col-lg-4 {
+		flex: 0 0 auto;
+		width: 33.3333333333%
+	}
+
+	.col-lg-5 {
+		flex: 0 0 auto;
+		width: 41.6666666667%
+	}
+
+}
+
+.d-block {
+	display: block !important
+}
+
+.d-flex {
+	display: flex !important
+}
+
+
+.d-none {
+	display: none !important
+}
+
+
+.justify-content-between {
+	justify-content: space-between !important
+}
+
+
+@media (min-width:576px) {
+
+	.d-sm-block {
+		display: block !important
+	}
+
+	.d-sm-none {
+		display: none !important
+	}
+
+	.d-sm-flex {
+		display: -webkit-flex !important;
+		display: -moz-flex !important;
+		display: -ms-flex !important;
+		display: -o-flex !important;
+		display: flex !important;
+	}
+
+}
